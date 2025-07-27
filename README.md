@@ -8,6 +8,13 @@ Section: S11A
 
 ## Comparative Execution Time and Short Analysis of Performance of Kernels
 
+Average Run Time of Assembly and C with a 2^20 Input:
+
+Assembly: 2.43 ms
+
+C: 4.4 ms
+
+
 ## Program Screenshots
 * Main Menu:
 <img width="376" height="92" alt="image" src="https://github.com/user-attachments/assets/d94263b3-2bad-419b-9274-07c4d8a69849" />
