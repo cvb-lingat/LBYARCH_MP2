@@ -9,7 +9,7 @@ Section: S11A
 ## (IMPORTANT) How to Run
 
 * Make sure that data.txt, DAXPY_ASM.asm, and MP2_Main.c are in the same folder
-* Do the normal Compile Assemble and Run for interfacing x86-64 and C
+* Do the normal Compile, Assemble, and Run for interfacing x86-64 and C
 
 Note: Inputs must be placed in data.txt in the following format:
 
@@ -24,12 +24,17 @@ elements of vector Y
 
 ## Comparative Execution Time and Short Analysis of Performance of Kernels
 
+Both kernel execution times were run together 30 times to compare and compute their average runtime.
+
 Average Run Time of Assembly and C with a 2^20 Input:
 
 Assembly: 2.43 ms
 
 C: 4.4 ms
 
+Dividing Avg C runtime (4.4) by Avg ASM runtime (2.43) roughly equals 1.811, indicating that Assembly, on average, is 1.81 times faster than C. Assembly is consistently lower than or equal to the runtime of C in every iteration of the average runtime computation, where Assembly runtimes are between 1 - 3ms and C runtimes are between 3 - 6ms. On most runs, Assembly is 1 - 2 units faster than C.
+
+C runtimes show that the C version of the DAXBY function is slower and more variable, as it peaks at even 6ms in some of the runs. Overall, Assembly's runtime is more consistent, stable, and faster than C in comparison.
 
 ## Program Screenshots
 * Main Menu:
