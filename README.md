@@ -34,7 +34,7 @@ C: 4.4 ms
 
 Dividing Avg C runtime (4.4) by Avg ASM runtime (2.43) roughly equals 1.811, indicating that Assembly, on average, is 1.81 times faster than C. Assembly is consistently lower than or equal to the runtime of C in every iteration of the average runtime computation, where Assembly runtimes are between 1 - 3ms and C runtimes are between 3 - 6ms. On most runs, Assembly is 1 - 2 units faster than C.
 
-C runtimes show that the C version of the DAXBY function is slower and more variable, as it peaks at even 6ms in some of the runs. Overall, Assembly's runtime is more consistent, stable, and faster than C in comparison.
+C runtimes show that the C version of the DAXPY function is slower and more variable, as it peaks at even 6ms in some of the runs. Overall, Assembly's runtime is more consistent, stable, and faster than C in comparison.
 
 ## Program Screenshots
 * Main Menu:
