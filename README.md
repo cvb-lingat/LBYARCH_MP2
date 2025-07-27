@@ -6,6 +6,22 @@ Made By:
   
 Section: S11A
 
+## (IMPORTANT) How to Run
+
+* Make sure that data.txt, DAXPY_ASM.asm, and MP2_Main.c are in the same folder
+* Do the normal Compile Assemble and Run for interfacing x86-64 and C
+
+Note: Inputs must be placed in data.txt in the following format:
+
+size of vectors
+
+A
+
+elements of vector X
+
+elements of vector Y
+
+
 ## Comparative Execution Time and Short Analysis of Performance of Kernels
 
 Average Run Time of Assembly and C with a 2^20 Input:
